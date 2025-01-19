@@ -192,8 +192,26 @@
   filter: grayscale(100%);
 }
 
+/* footer strt */
+
+footer{
+  background-color: hsla(32,100%,95%,1);
+  max-width: 80%;
+  max-height: 400px;
+  padding: 20px;
+  margin-bottom: 100px;
+  text-align: center;
+  margin-left: 240px;
+  margin-right: 240px;
+  border-radius: 8px;
+}
   /* responsive device 576px */
   @media screen and (max-width:576px) {
+    footer{
+      margin-left: 20px;
+      width: 90%;
+      justify-items: center;
+    }
     .img-container{
       grid-template-columns: repeat(1,1fr);
       margin-left: 100px;
