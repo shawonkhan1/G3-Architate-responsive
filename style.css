@@ -130,6 +130,52 @@
 
 /* start Features you will love & enjoy */
 
+.future-container{
+  display: flex;
+  gap: 146px;
+  margin-left: 240px;
+  margin-right: 240px;
+}
+.rowa{
+  padding: 30px;
+  border-radius: 8px;
+  background-color:rgb(240, 237, 237);
+  margin-bottom: 20px;
+  border: none;
+}
+
+.row-h{
+  font-size: 2.9rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.p{
+  font-size: 1rem;
+  font-weight: 400;
+  color: hsla(0,0%,45%,1);
+  margin-bottom: 20px;
+}
+.h{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.year-main{
+  max-width: 242px;
+  max-height: 200px;
+  background-color: hsla(32,100%,53%,1);
+  padding: 46px 42px;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  position: relative;
+  top: -90px;
+  left: -80px;
+}
+.year{
+  font-weight: 700;
+  font-size: 2rem;
+  color: white;
+}
 
 
 
@@ -207,6 +253,25 @@ footer{
 }
   /* responsive device 576px */
   @media screen and (max-width:576px) {
+    .year-main{
+      padding: 20px 20px;
+      margin-left: 0px;
+      margin-right: 0px;
+      top: -40px;
+      left: 20px;
+    }
+    .future-container{
+      margin-left: 10px;
+      margin-right: 10px;
+      flex-direction: column;
+    }
+    .row-2{
+      max-width: 550px;
+    }
+    .row-2 img{
+      max-width: 100%;
+      margin-left: auto;
+    }
     footer{
       margin-left: 20px;
       width: 90%;
