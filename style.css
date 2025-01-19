@@ -168,11 +168,41 @@
   color: hsla(0,0%,45%,1);
 }
 
+/* start Our Sponspors */
+.sponspors-title{
+  text-align: center;
+}
+.sponspors-h{
+  font-weight: 700;
+  font-size: 2.8rem;
+  margin-bottom: 24px;
+}
+
+.sponspors-p{
+  font-size: 1rem;
+  color: hsla(0,0%,45%,1);
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.img-container{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  margin-left: 240px;
+  margin-bottom: 129px;
+  filter: grayscale(100%);
+}
 
   /* responsive device 576px */
   @media screen and (max-width:576px) {
+    .img-container{
+      grid-template-columns: repeat(1,1fr);
+      margin-left: 100px;
+      align-items: center;
+      gap: 30px;
+    }
     .facts-title{
-      margin-left: 10px;
+      margin-left: 50px;
+      
     }
     .card-container{
       flex-direction: column;
