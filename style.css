@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+
+  
+/* nav start */
+.main{
+    background-color: hsla(32,100%,53%,0.1);
+    margin-bottom: 85px;
+}
+  nav{
+    display: flex;
+    margin-left: 228px;
+  }
+  .title{
+    font-weight: 700;
+    font-size: 2.8rem;
+    color: hsla(0,0%,7%,1);
+    font-family: work sans;
+    margin-top: 50px;
+  }
+  ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    margin: 0 auto;
+    margin-right: 240px;
+    margin-top: 63px;
+  }
+
+  ul li a{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: hsla(0,0%,25%,1);
+    font-family: Work Sans;
+  }
+
+
+  .brand-main{
+    text-align: center
+  }
+  .brand-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: hsla(0,0%,7%,1);
+    font-family: Work Sans;
+  }
+  .brand-subtitle{
+    font-size: 1rem;
+    font-weight: 400;
+    color: hsla(0,0%,45%,1);
+    font-family: Work Sans;
+    margin-top: 30px;
+  }
+
+  .brand-img{
+    margin-right: 240px;
+    margin-left: 240px;
+    padding-bottom: 45px;
+    width: 100%;
+    /* height: 500px;
+    width: 500px; */
+  }
+
+  .brand-btn{
+   width: 180px;
+   height: 64px;
+   background-color: hsla(32,100%,53%,1);
+   border: none;
+   border-radius: 8px;
+   font-size: 1.2rem;
+   font-weight: 600;
+   padding: 21px 25px;
+   color: white;
+   margin-bottom: 50px;
+   margin-top: 32px;
+
+  }
+  /* end banner */
+
+  /* responsive device 576px */
+  @media screen and (max-width:576px) {
+    .nav, .ul{
+        flex-direction: column;
+    }
+    .main{
+      height: 700px;
+    }
+    .title{
+      text-align: center;
+    }
+    nav{
+      display: flex;
+      margin-left: 22px;
+      flex-direction: column;
+    }
+    ul{
+      gap: 30px;
+     font-size: 1.5rem;
+     margin-left: 10px;
+    }
+    .brand-title{
+      font-size: 1.5rem;
+      margin-left: 10px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    .brand-subtitle{
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .brand-img{
+      height: 300px;
+      width: 330px;
+      margin-left: 10px;
+    }
+    .brand-img img{
+      width: 100%;
+      position: relative;
+      padding-left: 30px;
+      border-radius: 8px;
+    }
+  }
