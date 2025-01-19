@@ -13,11 +13,13 @@
     font-style: normal;
   }
 
-
-
-
   
 /* nav start */
+
+.small{
+  display: none;
+}
+
 .main{
     background-color: hsla(32,100%,53%,0.1);
     margin-bottom: 85px;
@@ -112,6 +114,10 @@
       margin-left: 22px;
       flex-direction: column;
     }
+  .small{
+    text-align: start;
+    display: inline;
+  }
 
     ul{
       /* gap: 1.9rem;
