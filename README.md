@@ -25,3 +25,4 @@ Navigate to the project folder:
 cd G3-Architate-responsive
 
 ![Project Screenshot](https://raw.githubusercontent.com/shawonkhan1/G3-Architate-responsive/main/images/ss2.png)
+
